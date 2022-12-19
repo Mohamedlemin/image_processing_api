@@ -1,0 +1,43 @@
+{
+  "name": "image_processing_api",
+  "version": "1.0.0",
+  "description": "udacity first project",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint 'src/index.ts'",
+    "build": "npx tsc",
+    "jasmine": "jasmine",
+    "test": "npm run build && npm run jasmine",
+    "start": "nodemon src/index.ts",
+    "prettier": "prettier --config .prettierrc '*.ts' --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohamedlemin/image_processing_api.git"
+  },
+  "author": "Mohamed lemine El Bechir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohamedlemin/image_processing_api/issues"
+  },
+  "homepage": "https://github.com/Mohamedlemin/image_processing_api#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.15",
+    "@types/jasmine": "^4.3.1",
+    "@types/node": "^18.11.17",
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/parser": "^5.46.1",
+    "eslint": "^8.8.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.5.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "jasmine": "^4.5.0",
+    "jasmine-spec-reporter": "^7.0.0"
+  }
+}
