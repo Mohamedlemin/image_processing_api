@@ -3,7 +3,7 @@ const routes = express.Router();
 
 
 routes.get('/',(req,res)=>{
-    res.send('main api route');
+    res.send('Main route')
 });
 
 export default routes;
