@@ -9,8 +9,7 @@ app.use('/api',routes);
 app.use('/api',resize)
 
 
-
-app.listen(port,()=>{
+app.listen(port,():void =>{
     console.log(`server started on http://localhost:${port}`);
 });
 

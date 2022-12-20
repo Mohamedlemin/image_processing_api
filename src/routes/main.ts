@@ -1,7 +1,7 @@
 import express from 'express'
 const routes = express.Router()
 
-routes.get('/', (req, res) => {
+routes.get('/', (req:express.Request, res:express.Response):void => {
     res.send(
         '<h1> Welcome to the image processing Api </h1> ' +
             ' <br> <h2> To resize your image please </h2> <br>' +
