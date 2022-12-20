@@ -14,4 +14,4 @@ npm start #to start the server
 ## End points
 
 - /api # main route used to facilitate mapping between routes if there is more functionally 
-- api/resize?filename=encenadaport&width=400&height=200 #resize image 
+- api/resize?filename=encenadaport&width=400&heigth=200 #resize image 
