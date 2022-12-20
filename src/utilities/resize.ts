@@ -1,6 +1,10 @@
 import sharp from 'sharp'
 
-async function resizeImage(file_name: string, width: number, height: number):Promise<void> {
+async function resizeImage(
+    file_name: string,
+    width: number,
+    height: number
+): Promise<void> {
     try {
         await sharp(`./assets/images/${file_name}.jpg`)
             .resize({
